@@ -1,6 +1,6 @@
-package resources;
+package com.queirozisrael.springBoot.resources;
 
-import entities.User;
+import com.queirozisrael.springBoot.entities.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

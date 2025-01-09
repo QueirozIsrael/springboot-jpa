@@ -3,9 +3,10 @@ package com.queirozisrael.springBoot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
-@SpringBootApplication(scanBasePackages = "resources")
-@EntityScan(basePackages = "entities")
+@SpringBootApplication(scanBasePackages = "com/queirozisrael/springBoot/resources")
+@EntityScan(basePackages = "com/queirozisrael/springBoot/entities")
 public class Application {
 
 	public static void main(String[] args) {
