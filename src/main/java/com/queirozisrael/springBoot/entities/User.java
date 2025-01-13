@@ -2,7 +2,6 @@ package com.queirozisrael.springBoot.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import org.aspectj.weaver.ast.Or;
 
 import java.io.Serializable;
 import java.util.ArrayList;
