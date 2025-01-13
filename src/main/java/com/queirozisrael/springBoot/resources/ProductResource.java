@@ -1,9 +1,7 @@
 package com.queirozisrael.springBoot.resources;
 
 import com.queirozisrael.springBoot.entities.Product;
-import com.queirozisrael.springBoot.entities.User;
 import com.queirozisrael.springBoot.services.ProductService;
-import com.queirozisrael.springBoot.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
