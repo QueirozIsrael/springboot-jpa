@@ -1,7 +1,6 @@
 package com.queirozisrael.springBoot.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.queirozisrael.springBoot.entities.enums.OrderStatus;
 import jakarta.persistence.*;
 
